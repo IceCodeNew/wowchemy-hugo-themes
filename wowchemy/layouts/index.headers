@@ -17,3 +17,5 @@
   Content-Type: application/manifest+json
 /index.xml
   Content-Type: application/rss+xml
+https://bmn-little-sweat-den.pages.dev/*
+  X-Robots-Tag: noindex
