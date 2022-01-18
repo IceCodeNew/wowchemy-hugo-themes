@@ -5,3 +5,9 @@ window.ga_tid = "UA-213456431-1"; // {String} The trackerID of your site.
 window.ga_api = "https://blog.icecode.xyz/cfga/jquery.js"; // {String} The route of your cloudflare workers you just registered before.
 </script>
 <script src="https://cdn.jsdelivr.net/npm/cfga@1.0.3" async></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sivan/heti/_site/heti.min.css">
+<script src="https://cdn.jsdelivr.net/gh/sivan/heti/_site/heti-addon.min.js"></script>
+<script>
+  const heti = new Heti('.heti');
+  heti.autoSpacing(); // 自动进行中西文混排美化和标点挤压
+</script>
